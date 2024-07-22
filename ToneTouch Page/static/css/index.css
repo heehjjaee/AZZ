@@ -89,7 +89,7 @@ body {
 
 /* 최상단 물결의 배경 크기 설정 */
 .waveTop {
-    background-size: 50% 100px; /* 배경 이미지 크기 설정 */
+    background-size: 50% 50px; /* 배경 이미지 크기 설정 */
 }
 
 /* 최상단 물결의 애니메이션 설정 */
@@ -102,7 +102,7 @@ body {
 
 /* 중간 물결의 배경 크기 설정 */
 .waveMiddle {
-    background-size: 50% 120px; /* 배경 이미지 크기 설정 */
+    background-size: 50% 60px; /* 배경 이미지 크기 설정 */
 }
 
 /* 중간 물결의 애니메이션 설정 */
@@ -112,7 +112,7 @@ body {
 
 /* 최하단 물결의 배경 크기 설정 */
 .waveBottom {
-    background-size: 50% 100px; /* 배경 이미지 크기 설정 */
+    background-size: 50% 50px; /* 배경 이미지 크기 설정 */
 }
 
 /* 최하단 물결의 애니메이션 설정 */
