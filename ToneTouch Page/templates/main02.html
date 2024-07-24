@@ -13,7 +13,7 @@
     <div class="container">
         <div class="header">
             <div class="div1">위험 감지 중 </div>
-            <div class="db">150dB</div>
+            <div class="db"><span id="currentDb">150</span>dB</div>
         </div>  
         <div class="headphone-container">
             <div class="wave-group">
@@ -51,8 +51,14 @@
             <div class="time">3min</div>
         </div>
         <div class="message-container">
-            <p class="message">안전에 유의하세요!</p> 😣</p>
+            <p class="message">안전에 유의하세요! 😣</p>
         </div>
+        <div class="input-container">
+            <input type="number" id="dbInput" placeholder="dB 값을 입력하세요">
+            <button onclick="updateDbLevel()">업데이트</button>
+        </div>
+        <script>
+        </script>
     </div>
 </body>
 </html>
