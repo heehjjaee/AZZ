@@ -4,16 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>위험 감지 중02</title>
-    <link rel="stylesheet" href="../static/css/index02.css">
+    <link rel="stylesheet" href="/static/css/index02.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap" rel="stylesheet">
 </head>
-<body>
+<body id="body">
     <div class="container">
         <div class="header">
             <div class="div1">위험 감지 중 </div>
-            <div class="db"><span id="currentDb">150</span>dB</div>
+            <div class="db">0dB</div>
+            <a href="main.html" class="home">HOME</a>
         </div>  
         <div class="headphone-container">
             <div class="wave-group">
@@ -29,7 +30,7 @@
                 <div class="wave wave-10"></div>
             </div>
             <div class="headphone">
-                <img class="headphone-dynamic-gradient-icon" alt="" src="../static/img/bell-dynamic-gradient.png">
+                <img class="headphone-dynamic-gradient-icon" alt="" src="/static/img/bell-dynamic-gradient.png">
             </div>
             <div class="wave-group">
                 <div class="wave wave-10"></div>
@@ -44,21 +45,10 @@
                 <div class="wave wave-1"></div>
             </div>
         </div>
-        <div class="timeline">
-            <div class="time">0min</div>
-            <div class="time">1min</div>
-            <div class="time">2min</div>
-            <div class="time">3min</div>
-        </div>
         <div class="message-container">
             <p class="message">안전에 유의하세요! 😣</p>
         </div>
-        <div class="input-container">
-            <input type="number" id="dbInput" placeholder="dB 값을 입력하세요">
-            <button onclick="updateDbLevel()">업데이트</button>
-        </div>
-        <script>
-        </script>
     </div>
+    <script src="/static/js/soundMeasurement.js"></script>
 </body>
 </html>
