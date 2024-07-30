@@ -1,0 +1,13 @@
+1-boil 0 물끓는 소리                       2        
+2-carhorn 0 비상경보                      3
+3-door 0 문 여닫는 소리                  2
+4-emergencysiren 0 응급경보            3
+5-firesiren 0 화재경보                      3
+6-gas 0 가스불 소리                        3
+7-glass 0 유리 깨짐                         2
+8-steallsiren 0도난경보                     2
+
+1378
+2 456
+
+
