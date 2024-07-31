@@ -39,7 +39,7 @@ body {
 .div1 {
     font-family: "Black Han Sans", sans-serif;
     font-style: normal;
-    font-size: 5vw;
+    font-size: 6vw;
     position: fixed;
 }
 
@@ -58,7 +58,7 @@ body {
     right: 20px;
     font-family: "Black Han Sans";
     font-style: normal;
-    font-size: 5vw;
+    font-size: 6vw;
     text-decoration-line: none;
     text-decoration: none;
     color: #fff;

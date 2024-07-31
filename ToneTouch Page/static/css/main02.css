@@ -39,7 +39,7 @@ body {
 .div1 {
     font-family: "Black Han Sans", sans-serif;
     font-style: normal;
-    font-size: 5vw;
+    font-size: 6vw;
     position: fixed;
 }
 
@@ -58,7 +58,7 @@ body {
     right: 20px;
     font-family: "Black Han Sans";
     font-style: normal;
-    font-size: 5vw;
+    font-size: 6vw;
     text-decoration-line: none;
     text-decoration: none;
     color: #fff;
@@ -73,18 +73,18 @@ body {
 }
 
 .headphone-dynamic-gradient-icon {
-    width: 100%;
-    height: auto;
+    width: 90%;
+    padding-top: 10%;
     object-fit: cover;
     animation: float 3s ease-in-out infinite; 
 }
 
 @keyframes float {
     0%, 100% {
-        transform: translateY(0);
+        transform: translateY(-0);
     }
     50% {
-        transform: translateY(-5px);  /* 로고가 떠오르는 높이를 조절 */
+        transform: translateY(-3px);  /* 로고가 떠오르는 높이를 조절 */
     }
 }
 
