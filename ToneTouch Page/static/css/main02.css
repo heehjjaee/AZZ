@@ -84,7 +84,7 @@ body {
         transform: translateY(-0);
     }
     50% {
-        transform: translateY(-3px);  /* 로고가 떠오르는 높이를 조절 */
+        transform: translateY(-10px);  /* 로고가 떠오르는 높이를 조절 */
     }
 }
 
