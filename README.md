@@ -81,7 +81,8 @@ https://github.com/user-attachments/assets/81279d38-c540-4538-923f-3ba7c3cd483a
 ![그림01](https://github.com/user-attachments/assets/1d93f3cc-ce2e-42f0-9e46-d485ce9666e2)
 
 ## 🥇 모델
-### CNN(Convolutional Neural Network, 합성곱 신경망)
+### 1. 모델 선정
+#### CNN(Convolutional Neural Network, 합성곱 신경망)
 + Random Forest
   + 앙상블의 한 종류
   + 여러개의 Decision Tree를 이용해 최종 예측을 내는 방법
@@ -101,7 +102,7 @@ https://github.com/user-attachments/assets/81279d38-c540-4538-923f-3ba7c3cd483a
 | SVM | 0.78 | 0.79 | 0.78 | 0.76 |
 | CNN | 0.90 | 0.90 | 0.90 | 0.90 |
 
-### 학습 및 파라미터 튜닝
+### 2. 학습 및 파라미터 튜닝
 + 과적합 방지를 위해 **Dropout 레이어**를 추가
 + **Earlystopping 함수**를 사용하여 검증 데이터의 오차가 증가하면 학습을 중단
 ![acc](https://github.com/user-attachments/assets/c4acecc7-9d5c-41a3-a63a-48b05b9ebdd2)
@@ -139,5 +140,7 @@ https://github.com/user-attachments/assets/81279d38-c540-4538-923f-3ba7c3cd483a
 + Modeling 코드가 데이터 다운부터 cnn모델 학습, 교차검증까지 한 파일에 진행해서 알아보기 힘듦
 + Urbansound8k 데이터 코드 상에서 다운받아 진행
 + 'baby_cry'클래스를 포함한 모델과 포함하지 않은 모델 2가지 버전이 있음
+
+## 🥳 고생하셨습니다. 👏
 
 
